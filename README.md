@@ -9,6 +9,7 @@ This repository contains simple Pygame projects and exercises designed to help u
 ## Current Project
 
 The main project (`main.py`) is a basic Pygame window setup that demonstrates:
+
 - Initializing Pygame
 - Creating a display window
 - Basic event handling for window closing
@@ -21,12 +22,14 @@ The main project (`main.py`) is a basic Pygame window setup that demonstrates:
 ## Installation
 
 1. Clone this repository:
+
 ```bash
 git clone <repository-url>
 cd pygame
 ```
 
 2. Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -34,6 +37,7 @@ pip install -r requirements.txt
 ## Usage
 
 Run the main Pygame application:
+
 ```bash
 python main.py
 ```
@@ -52,6 +56,9 @@ This will open an 800x600 window that you can close by clicking the X button.
 
 ```
 pygame/
+├── .gitignore          # The files to ignore on git
+├── character.py          # Character info
+├── constants.py          # The constants
 ├── main.py          # Main Pygame application
 ├── requirements.txt # Python dependencies
 └── README.md       # This file
