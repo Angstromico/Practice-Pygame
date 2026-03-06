@@ -4,6 +4,7 @@ from constants import WIDTH_WINDOW, HEIGHT_WINDOW
 def main(): 
     pygame.init()
     window = pygame.display.set_mode((WIDTH_WINDOW, HEIGHT_WINDOW))
+    pygame.display.set_caption("My First Python Game")
     run = True
 
     while run:
