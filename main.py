@@ -1,9 +1,9 @@
 import pygame
-from constants import width, height
+from constants import WIDTH_WINDOW, HEIGHT_WINDOW
 
 def main(): 
     pygame.init()
-    window = pygame.display.set_mode((width, height))
+    window = pygame.display.set_mode((WIDTH_WINDOW, HEIGHT_WINDOW))
     run = True
 
     while run:

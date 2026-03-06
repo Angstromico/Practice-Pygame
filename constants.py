@@ -1,1 +1,1 @@
-width, height = 800, 600
+WIDTH_WINDOW, HEIGHT_WINDOW = 800, 600
