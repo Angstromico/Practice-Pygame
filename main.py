@@ -1,8 +1,8 @@
 import pygame
+from constants import width, height
 
 def main(): 
     pygame.init()
-    width, height = 800, 600
     window = pygame.display.set_mode((width, height))
     run = True
 
